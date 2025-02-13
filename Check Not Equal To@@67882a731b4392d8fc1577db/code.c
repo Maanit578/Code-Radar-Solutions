@@ -3,5 +3,5 @@ int main(){
     int a,b;
     scanf("%d %d",&a,&b);
     printf(a!=b?"True":"False");
-    returnb 0;
+    return 0;
 }
