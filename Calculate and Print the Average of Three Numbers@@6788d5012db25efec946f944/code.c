@@ -3,8 +3,7 @@ int main(){
     int a,b,c;
     double avg;
     scanf("%d %d %d",&a,&b,&c);
-    sum = a+b+c;
-    avg= sum/3.0;
+    avg=(a+b+c)/3.0;
     printf("Average: %.2f",avg);
     return 0;
 }
