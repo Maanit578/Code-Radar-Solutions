@@ -1,5 +1,5 @@
 #include <stdio.h>
-int amin(){
+int main(){
     int a;
     scanf("%d",&a);
     printf(a%2==0?"Even":"Odd");
