@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     scanf("%d",&a);
-    for(b=2;b<a;b++){
+    for(b=2;a<b;b++){
         if(n%i==0){
             printf("Not Prime");
             return 0;
