@@ -2,9 +2,6 @@
 
 int main() {
     int n;
-
-    // Input the number of rows for the pyramid
-    printf("Enter the number of rows: ");
     scanf("%d", &n);
 
     // Loop through each row to create the pyramid
