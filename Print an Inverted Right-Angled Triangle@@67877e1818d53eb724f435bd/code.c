@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main(){
-    int N, char c;
+    int N;
     scanf("%d",&N);
     for(int i=N;i>0;i--){
-        c='*'*i;
-        printf("%c\n",c);
-    }return 0;
+       for(int j=0;j<=i;j++){
+        printf("*");
+       }
+       printf("\n");
 }
