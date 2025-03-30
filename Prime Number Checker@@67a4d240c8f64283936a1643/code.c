@@ -4,8 +4,8 @@ int isprime(int num){
         if(num%i==0){
             c++;
         }
-        
-    }if(c==1){
+    }
+        if(c==1){
         return 0;
     }
      else{
