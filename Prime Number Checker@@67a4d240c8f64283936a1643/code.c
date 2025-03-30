@@ -7,6 +7,7 @@ int isprime(int num){
         
     }if(c==1){
         return 0;
+    }
      else{
         return 1;
      }
