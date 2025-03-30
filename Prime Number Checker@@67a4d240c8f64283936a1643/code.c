@@ -11,5 +11,4 @@ int isprime(int num){
      else{
         return 1;
      }
-    }
-}
+} 
