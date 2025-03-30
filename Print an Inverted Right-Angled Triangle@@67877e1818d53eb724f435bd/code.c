@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int N;
+    int N, char c;
     scanf("%d",&N);
     for(int i=N;i>0;i--){
-        printf("*"*i);
-        printf("\n");
+        c='*'*i;
+        printf("%c\n",c);
     }return 0;
 }
